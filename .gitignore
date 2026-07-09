@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local runtimes
+.venv/
+.venv-*/
+open_model_eval/.venv-vllm/
+
+# Secrets and local env files
+.env
+.env.*
+!.env.example
+
+# Local caches
+.cache_mathvista_images/
+.cache_hf/
+.cache_hf_runtime/
+.cache/
+
+# Local run outputs
+results/
+trajectory/
+workspace/
+
+# Archives and large local artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Generated skill libraries are experiment outputs unless explicitly exported.
+skills/subagents/generated/
+

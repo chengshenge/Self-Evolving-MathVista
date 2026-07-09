@@ -1,0 +1,2 @@
+{"pid":"demo_001","question":"What is 2 + 3?","image_path":"","choices":["4","5","6"],"question_type":"multi_choice","answer_type":"text","answer":"5","metadata":{"context":"text only","task":"arithmetic smoke","mock_answer":"5"}}
+{"pid":"demo_002","question":"A rectangle has length 4 and width 3. What is its area?","image_path":"","choices":[],"question_type":"free_form","answer_type":"integer","answer":12,"metadata":{"context":"text only","task":"arithmetic smoke","mock_answer":"12"}}
